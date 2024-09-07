@@ -2,6 +2,8 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 #app {
@@ -45,4 +47,13 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.deleteBtn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
 }
